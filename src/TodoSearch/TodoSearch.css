@@ -19,6 +19,9 @@
     font-family:montserrat,Arial,Helvetica,sans-serif;
     font-weight:400
 }
+.TodoSearch::placeholder:last-child{
+    font-size:35px;
+}
 .TodoSearch:focus{
     outline-color:#61dafa;
 }

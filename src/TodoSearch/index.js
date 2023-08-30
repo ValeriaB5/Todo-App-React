@@ -6,7 +6,7 @@ function TodoSearch() {
   const { searchValue, setSearchValue}= React.useContext(TodoContext);
   return (
     <input
-      placeholder="Search your TODOS here"
+      placeholder="Search your TODOS here ⌕‍"
       className="TodoSearch"
       value={searchValue}
       onChange={(event) => {
