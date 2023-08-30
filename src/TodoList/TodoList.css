@@ -1,0 +1,24 @@
+.Fondo-lista {
+    background: white;
+    height: 90%;
+    padding: 10px;
+    width: 55%;
+    margin-right: 35px;
+    margin-top: 40px;
+    float: right;
+    border-radius: 10px;
+}
+
+.TodoList{
+    margin:0;
+    padding:0 0 56px;
+    list-style:none
+}
+
+@media (max-width: 770px) {
+    .Fondo-lista {
+        width: 95%;
+        margin: 10px;
+        padding: 3px;
+    }
+}
